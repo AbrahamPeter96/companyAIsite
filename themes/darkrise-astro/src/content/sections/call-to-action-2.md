@@ -6,7 +6,7 @@ description: Gain invaluable predictive analytics and actionable insights empowe
 
 button:
   enable: true
-  label: "Get This Theme"
+  label: "Contact us"
   link: "/contact/"
 
 list:

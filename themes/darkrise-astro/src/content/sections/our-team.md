@@ -3,10 +3,10 @@ title: Our team
 description: Gain invaluable predictive analytics and actionable insights.
 
 list:
-  - name: Brooklyn Simmons
+  - name: Vivek Shah
     avatar: "/images/team/1.png"
-    content: Gain invaluable predictive analytics and actionable insights, empowering your to make data-driven.
-    designation: "President of Sales"
+    content: As CEO, my vision is to empower businesses with AI solutions that are not only intelligent but also practical, scalable, and ethical. Our mission is to bridge the gap between complex technology and real-world impact—helping our clients innovate faster, operate smarter, and achieve lasting growth. At the heart of our company is a team dedicated to building trust, driving results, and shaping the future of AI together.
+    designation: "Founder & CEO"
     social:
       - name: facebook
         icon: "/images/icons/svg/facebook.svg"

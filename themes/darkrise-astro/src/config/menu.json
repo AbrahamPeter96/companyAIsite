@@ -97,7 +97,7 @@
           "url": "/pricing/"
         },
         {
-          "name": "Integrations",
+          "name": "Integrations ",
           "url": "/integration/"
         },
         {
@@ -123,33 +123,52 @@
       ]
     },
     {
-      "name": "Integrations",
+      "name": "About",
+      "url": "/about/"
+    },
+    {
+      "name": "Services and Industries",
       "url": "/integration/",
       "hasMegamenu": true,
       "children": [
         {
-          "name": "Landing",
+          "name": "services",
           "children": [
             {
-              "name": "Home",
+              "name": "Predictive Modelling",
+              "description": "",
+              "url": "/"
+            },
+            {
+              "name": "Chat GPT Integration",
+              "description": "",
+              "url": "/"
+            },
+            {
+              "name": "AI Automation",
+              "description": "",
+              "url": "/"
+            },
+            {
+              "name": "Big Data",
               "description": "",
               "url": "/"
             }
           ]
         },
         {
-          "name": "Essentials",
+          "name": "Industries",
           "children": [
             {
-              "name": "About",
+              "name": "Health Tech",
               "url": "/about/"
             },
             {
-              "name": "Pricing",
+              "name": "Fin Tech",
               "url": "/pricing/"
             },
             {
-              "name": "Integrations",
+              "name": "AI Modeling",
               "url": "/integration/",
               "hasMegamenu": true,
               "children": [
@@ -172,43 +191,12 @@
             {
               "name": "Feature",
               "url": "/feature/"
-            },
-            {
-              "name": "Blog",
-              "url": "/blog/"
-            },
-            {
-              "name": "Blog Details",
-              "url": "/blog/post-1/"
-            },
-            {
-              "name": "Changelog",
-              "url": "/changelog/"
-            },
-            {
-              "name": "Contact",
-              "url": "/contact/"
-            },
-            {
-              "name": "Terms",
-              "url": "/terms-conditions/"
-            },
-            {
-              "name": "Privacy",
-              "url": "/privacy-policy/"
-            },
-            {
-              "name": "404",
-              "url": "/404/"
             }
           ]
         }
-      ] 
+      ]
     },
-    {
-      "name": "Pricing",
-      "url": "/pricing/"
-    },
+
     {
       "name": "Contact",
       "url": "/contact/"

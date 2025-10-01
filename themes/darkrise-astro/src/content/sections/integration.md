@@ -1,9 +1,9 @@
 ---
-title: Connect with 100+ tools
-description: Gain invaluable predictive analytics and actionable insights <br/> empowering your to make data-driven decisions.
+title: Integrate. Analyze. Decide.
+description: Our AI services ensure smooth integration with your systems, empowering smarter, data-driven decisions without disruption.
 
 button:
-  enable: true
+  enable: false
   label: Explore All Tools
   link: "/integration/"
 ---
