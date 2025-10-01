@@ -10,9 +10,6 @@ image:
 
 buttons:
   - enable: true
-    label: "Start 14 Days Free Trial"
-    link: "/contact/"
-  - enable: true
     label: "Start with us today"
     link: "/contact/"
 

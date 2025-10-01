@@ -1,18 +1,18 @@
 ---
-- title: Get proper data & sales statistics.
+- title: Adaptive AI with Fine-Tuning & RLHF.
   images:
     - "/images/features/sales-overview.png"
     - "/images/features/monthly-sale.png"
-  description: Gain invaluable predictive analytics and actionable insights, empowering your to make data-driven decisions and close deals more effectively looking.
+  description: Adapt world-class foundation models to your business and data, creating sustainable AI solutions that deliver long-term success.”
   list:
-    - Event marketing
-    - Content creation
-    - Brand strategy
+    - AI Model Customization
+    - AI Data Integration
+    - AI Growth Strategy
     - Data analyzing
   button:
     enable: true
     label: "Get Started Now"
-    link: "/"
+    link: "/contact"
 - title: Bring visitors from different sources.
   images:
     - "/images/features/audience-activity.png"
