@@ -1,44 +1,45 @@
 ---
 - title: Adaptive AI with Fine-Tuning & RLHF.
   images:
-    - "/images/features/sales-overview.png"
-    - "/images/features/monthly-sale.png"
-  description: Adapt world-class foundation models to your business and data, creating sustainable AI solutions that deliver long-term success.”
+    - "/images/features/gen-ai.png"
+    - ""
+  description: Adapt world-class foundation models to your business and data, creating sustainable AI solutions that deliver long-term success.
   list:
     - AI Model Customization
     - AI Data Integration
     - AI Growth Strategy
     - Data analyzing
   button:
-    enable: true
+    enable: false
     label: "Get Started Now"
     link: "/contact"
-- title: Bring visitors from different sources.
+
+- title: Leading Foundation Model Integrations.
   images:
     - "/images/features/audience-activity.png"
     - "/images/features/summery.png"
-  description: Gain invaluable predictive analytics and actionable insights, empowering your to make data-driven decisions and close deals more effectively looking.
+  description: We work seamlessly with the world’s top AI models—both open-source and proprietary—including Google, Meta, Cohere, and more ensuring your business has access to the most powerful foundation models available.
   list:
     - Event marketing
     - Content creation
     - Brand strategy
     - Data analyzing
   button:
-    enable: true
+    enable: false
     label: "Get Started Now"
     link: "/"
-- title: Acquire and retrain more customer.
+- title: Concise & Professional.
   images:
     - "/images/features/customer.png"
     - "/images/features/customer-sales.png"
-  description: Gain invaluable predictive analytics and actionable insights, empowering your to make data-driven decisions and close deals more effectively looking.
+  description: By integrating your enterprise data into these models, Scale’s Data Engine establishes the groundwork for sustainable differentiation and long-term business impact.
   list:
-    - Event marketing
-    - Content creation
-    - Brand strategy
-    - Data analyzing
+    - Seamless Integration
+    - Strategic Advantage
+    - Scalable Foundation
+    - Data-Driven Innovation
   button:
-    enable: true
+    enable: false
     label: "Get Started Now"
     link: "/"
 ---
