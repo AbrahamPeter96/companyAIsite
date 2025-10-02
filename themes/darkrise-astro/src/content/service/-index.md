@@ -1,7 +1,7 @@
 ---
 title: "Services"
 meta_title: ""
-description: "this is meta description"
+description: "Leading AI service provider offering custom AI solutions, machine learning development, data analytics, and automation services to drive business innovation and efficiency."
 
 hero:
   title: Our Services

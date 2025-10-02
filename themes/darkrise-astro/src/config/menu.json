@@ -58,22 +58,22 @@
             {
               "name": "Predictive Modelling",
               "description": "",
-              "url": "/"
+              "url": "/service/s-1/"
             },
             {
               "name": "Chat GPT Integration",
               "description": "",
-              "url": "/"
+              "url": "/service/s-2/"
             },
             {
               "name": "AI Automation",
               "description": "",
-              "url": "/"
+              "url": "/service/s-3/"
             },
             {
-              "name": "Big Data",
+              "name": "Machine Learning",
               "description": "",
-              "url": "/"
+              "url": "/service/s-4/"
             }
           ]
         },
