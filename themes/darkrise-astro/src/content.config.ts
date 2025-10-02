@@ -8,6 +8,7 @@ import {
   pages,
   pricing,
   service,
+  industry,
 } from "./types/pages.collections";
 import {
   aboutBannerSection,
@@ -40,6 +41,7 @@ export const collections = {
   pages,
   pricing,
   service,
+  industry,
 
   // Sections
   aboutBannerSection,

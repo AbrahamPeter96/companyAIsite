@@ -63,6 +63,30 @@ export const service = defineCollection({
   }),
 });
 
+export const industry = defineCollection({
+  loader: glob({
+    pattern: "**/*.{md,mdx}",
+    base: "src/content/industry",
+  }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    image: z.string().optional(),
+    description: z.string(),
+    draft: z.boolean().optional(),
+    featured: z.boolean().optional(),
+    tags: z.array(z.string()).optional(),
+
+    hero: z
+      .object({
+        title: z.string(),
+        subtitle: z.string().optional(),
+        description: z.string().optional(),
+      })
+      .optional(),
+  }),
+});
+
 export const changelog = defineCollection({
   loader: glob({
     pattern: "**/-*.{md,mdx}",
