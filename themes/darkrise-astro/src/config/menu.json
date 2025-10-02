@@ -12,6 +12,11 @@
               "name": "Home",
               "description": "",
               "url": "/"
+            },
+             {
+              "name": "New Page",
+              "description": "",
+              "url": "/new-page/"
             }
           ]
         },

@@ -1,0 +1,53 @@
+---
+// Props interface for the YouTube component
+interface Props {
+  videoId: string;
+  title?: string;
+  width?: number | string;
+  height?: number | string;
+  autoplay?: boolean;
+  muted?: boolean;
+  controls?: boolean;
+  class?: string;
+  style?: any;
+}
+
+// Destructuring Astro.props
+const {
+  videoId,
+  title = "YouTube video player",
+  width = "100%",
+  height = 400,
+  autoplay = false,
+  muted = false,
+  controls = true,
+  class: className,
+  style,
+} = Astro.props;
+---
+
+<div class={`youtube-video-container ${className}`} style={style}>
+  <iframe
+    width={width}
+    height={height}
+    src={`https://www.youtube.com/embed/${videoId}?autoplay=${autoplay ? 1 : 0}&mute=${muted ? 1 : 0}&controls=${controls ? 1 : 0}`}
+    title={title}
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    loading="lazy"
+  ></iframe>
+</div>
+
+<style>
+  .youtube-video-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .youtube-video-container iframe {
+    border-radius: 8px;
+    aspect-ratio: 16 / 9;
+  }
+</style>
