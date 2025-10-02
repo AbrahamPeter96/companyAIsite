@@ -12,11 +12,6 @@
               "name": "Home",
               "description": "",
               "url": "/"
-            },
-             {
-              "name": "New Page",
-              "description": "",
-              "url": "/new-page/"
             }
           ]
         },
@@ -133,7 +128,7 @@
     },
     {
       "name": "Services and Industries",
-      "url": "/integration/",
+      "url": "/services/",
       "hasMegamenu": true,
       "children": [
         {
