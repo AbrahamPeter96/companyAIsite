@@ -82,15 +82,15 @@
           "children": [
             {
               "name": "Health Tech",
-              "url": "/about/"
+              "url": "/industry/i-1/"
             },
             {
               "name": "Fin Tech",
-              "url": "/pricing/"
+              "url": "/industry/i-2/"
             },
             {
-              "name": "AI Modeling",
-              "url": "/integration/",
+              "name": "AI Diagnostics",
+              "url": "/industry/i-3/",
               "hasMegamenu": true,
               "children": [
                 {
@@ -106,12 +106,38 @@
               ]
             },
             {
-              "name": "Integrations Details",
-              "url": "/integration/intercom/"
+              "name": "Green Tech",
+              "url": "/industry/i-4/",
+              "hasMegamenu": true,
+              "children": [
+                {
+                  "name": "Landing",
+                  "children": [
+                    {
+                      "name": "Home",
+                      "description": "",
+                      "url": "/"
+                    }
+                  ]
+                }
+              ]
             },
             {
-              "name": "Feature",
-              "url": "/feature/"
+              "name": "Smart Healthcare",
+              "url": "/industry/i-5/",
+              "hasMegamenu": true,
+              "children": [
+                {
+                  "name": "Landing",
+                  "children": [
+                    {
+                      "name": "Home",
+                      "description": "",
+                      "url": "/"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -127,17 +153,19 @@
     { "name": "Privacy Policy", "url": "/privacy-policy/" },
     { "name": "Terms & Conditions", "url": "/terms-conditions/" }
   ],
-  "company": [
-    { "name": "About", "url": "/about/" },
-    { "name": "Product Features", "url": "/feature/" },
-    { "name": "Changelog", "url": "/changelog/" },
-    { "name": "Contact", "url": "/contact/" }
+  "company": [{ "name": "About", "url": "/about/" }],
+  "services": [
+    { "name": "Predictive Modelling", "url": "/service/s-1/" },
+    { "name": "Chat GPT Integration", "url": "/service/s-2/" },
+    { "name": "AI Automation", "url": "/service/s-3/" },
+    { "name": "Machine Learning", "url": "/service/s-4/" }
   ],
   "product": [
-    { "name": "Pricing & Plans", "url": "/pricing/" },
-    { "name": "Product Features", "url": "/feature/" },
-    { "name": "Integration", "url": "/integration/" },
-    { "name": "Integration Details", "url": "/integration/kickstar/" }
+    { "name": "Health Tech", "url": "/industry/i-1/" },
+    { "name": "Fin Tech", "url": "/industry/i-2/" },
+    { "name": "AI Diagnostics", "url": "/industry/i-3/" },
+    { "name": "Green Tech", "url": "/industry/i-4/" },
+    { "name": "Smart Healthcare", "url": "/industry/i-5/" }
   ],
   "resources": [
     { "name": "Blog", "url": "/blog/" },
@@ -146,10 +174,5 @@
       "url": "/blog/post-1/"
     },
     { "name": "Changelog", "url": "/changelog/" }
-  ],
-  "services": [
-    { "name": "Book A Demo", "url": "/" },
-    { "name": "Contact", "url": "/contact/" },
-    { "name": "404", "url": "/404/" }
   ]
 }
