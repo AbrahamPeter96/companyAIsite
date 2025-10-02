@@ -7,6 +7,7 @@ import {
   integration,
   pages,
   pricing,
+  service,
 } from "./types/pages.collections";
 import {
   aboutBannerSection,
@@ -38,6 +39,7 @@ export const collections = {
   integration,
   pages,
   pricing,
+  service,
 
   // Sections
   aboutBannerSection,
